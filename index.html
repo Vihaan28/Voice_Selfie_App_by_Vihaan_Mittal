@@ -1,0 +1,64 @@
+<h<head>
+        <title>My Selfie App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+ 
+ <link href="style.css" rel="stylesheet">
+ 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+ 
+ </head>
+ 
+<body>
+    <div class="container">
+    <center>
+
+        <a href="" id="link" download="myselfie.png"></a>
+        <h1 id="heading">
+<Img id="logo_img" src="https://i.pinimg.com/originals/a7/1f/75/a71f757f6ac38c78fe0753a0143d4fa8.gif">  
+                Voice Selfie App 
+<Img id="logo_img" src="https://i.pinimg.com/originals/a7/1f/75/a71f757f6ac38c78fe0753a0143d4fa8.gif">
+        </h1>
+        <hr>
+      <marquee>  <h2>Please press "allow" button as soon as popup appears after you give a voice command</h2> </marquee>
+        
+        <div class="form-group">
+            <h2 id="say"><b>Say "take my selfie"</b></h2>
+            <br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQieyrHQeDX9ueyxmuG9tkcShEX5LSxp3TzmA&usqp=CAU" id="smile_please" class="img-responsive">
+            
+<br>
+<div id="instructions">
+<h1> HOW TO USE <br>
+     1. Press the START button. <br>
+     2. Say " TAKE MY SELFIE ". <br>
+     3. Now give a fantastic pose.<br>
+     4. Done! Your picture is downloaded on your device.<br>
+</h1>
+</div>
+<h2>Your Voice Output : </h2>
+<textarea class="form-control" id="textbox" readonly="true"></textarea>
+        </div>
+<button id="start_b" class="btn btn-primary" onclick="start()"> <b> START </b></button>
+        <h2><b>Press The Start Button </b></h2>
+<br>
+        <h2>Your Webcam : </h2>
+<div id="camera"></div>
+        <br>
+<img src="https://cdn.dribbble.com/users/1019864/screenshots/10191755/800x600.gif" id="gif" class="img-responsive">
+<br>
+        <h2><b>Your Selife Is Displayed Here: </b></h2>
+<div id="result"></div>
+    </center>
+    </div>
+    <br>
+    <h3 id="madeby"> Created By - Vihaan Mittal</h3>
+
+    <script src="main.js"></script>
+</body>
+</html>

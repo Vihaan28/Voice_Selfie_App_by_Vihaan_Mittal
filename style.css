@@ -1,0 +1,70 @@
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+    border-radius: 10px;
+   
+}
+#logo_img
+{
+    width: 100px;
+    border-radius: 10px;
+}
+#textbox
+{
+    width: 300px;
+    background-color: lightgrey;
+}
+
+body{
+
+    background: linear-gradient(#00e6ff 0% , #008391 100%);
+}
+
+#madeby{
+
+    margin: 20px;
+    color: black;
+}
+#gif{
+
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+#heading{
+
+    font-size: 100px;
+    font-family: 'Pushster', cursive;
+}
+#smile_please{
+
+    border-radius: 10px;
+}
+#start_b{
+
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+}
+#instructions{
+
+    width: 500px;
+    height: 300px;
+    padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+    border-radius: 10px;
+}
+#say{
+
+font-size: 50px;
+}
+#result{
+
+    border-radius: 10px;
+}
